@@ -9,12 +9,19 @@ const btn_Search = document.querySelector('length')
 
 btn_toggle.onclick = () => {
   // your code here
-  const cal = author + input.length
-  
+  document.getElementById("toggle").click();
 }
-
+function search(){
+  var str = "";
+  var n=str.length.search(value)
+  n.setAttribute("type","color");
+  document.body.appendChild(n);
+ 
+}
+function reset(){
+  var str="";
+  var n=str.length.reset(value)
+  n.setAttribute("type","reset");
+  document.body.appendChild(n);
+}
 // more codes for Search and Reset buttons here
-btn_Search.onclick = () => {
-  
-
-}
